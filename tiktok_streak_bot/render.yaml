@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: tiktok-streak-bot
+    env: node
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: TIKTOK_USERNAME
+        value: your_tiktok_username
+      - key: TIKTOK_PASSWORD
+        value: your_tiktok_password
