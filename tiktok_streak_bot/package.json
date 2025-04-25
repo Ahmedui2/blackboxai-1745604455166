@@ -1,0 +1,12 @@
+{
+  "name": "tiktok_streak_bot",
+  "version": "1.0.0",
+  "description": "TikTok streak bot to automatically send messages and maintain streaks",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3"
+  }
+}
